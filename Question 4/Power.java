@@ -14,8 +14,8 @@ public class Power {
     static int recursion(int a,int b)
     {
 
-       if(b==1)
-           return a;
+       if(b==0)
+           return 1;
        else
            return a*(recursion(a,b-1));
     }
